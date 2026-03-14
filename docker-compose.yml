@@ -1,0 +1,11 @@
+services:
+  checkmcp:
+    container_name: checkmcp
+    build: .
+    environment:
+      - CONFIG_PATH=/checkmcp/config.yml
+      - REQUESTS_CA_BUNDLE=${CA_BUNDLE:-}
+    ports:
+      - ${PORT}:8000
+    volumes:
+      - ${CONFIG_PATH}:/checkmcp/config.yml

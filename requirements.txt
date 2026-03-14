@@ -1,0 +1,5 @@
+mcp==1.26.0
+PyYAML==6.0.3
+requests==2.32.5
+pydantic==2.11.10
+Authlib==1.6.8

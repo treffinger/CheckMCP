@@ -1,0 +1,33 @@
+{
+    "host": [
+        "alias",
+        "address",
+        "num_services",
+        "num_services_crit",
+        "num_services_warn",
+        "parents",
+        "childs",
+        "state",
+        "tags"
+    ],
+    "service": [
+        "description",
+        "display_name",
+        "downtimes",
+        "is_flapping",
+        "last_check",
+        "last_state",
+        "last_state_change",
+        "last_time_ok",
+        "plugin_output",
+        "state"
+    ],
+    "downtime": [
+        "comment",
+        "host_name",
+        "is_service",
+        "start_time",
+        "end_time",
+        "recurring"
+    ]
+}
